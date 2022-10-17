@@ -24,7 +24,7 @@ public class Main {
     public static int getAge() {
         return 21;
     }
-
+    //zadanie2
     public static void zadanie2() {
         Scanner in = new Scanner(System.in);
         System.out.println("Podaj a= ");
