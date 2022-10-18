@@ -84,6 +84,11 @@ public class Main {
         System.out.println("Podaj koniec przedzialu :");
         int b = in.nextInt();
         int wylosowana= rand.nextInt((b-a+1)+a);
-        System.out.println(wylosowana);
+        System.out.println("Wylosowana liczba to "+ wylosowana);
+        System.out.println("a + b = "+(a+wylosowana));
+        boolean enabled=true;
+        boolean disabled=false;
+        if(a+wylosowana>b)     System.out.println(enabled+" Mozna stworzyc trojkat");
+        else System.out.println("Nie mozna stworzyc trojkata");
     }
 }
