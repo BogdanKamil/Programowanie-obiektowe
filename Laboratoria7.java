@@ -4,7 +4,7 @@ public class Main
     {
         if (n < 0)
         {
-            throw new BlednaWartoscDlaSilniException("Number cannot be negative");
+            throw new BlednaWartoscDlaSilniException("Liczba nie może być ujemna");
         }
 
         long result = 1;
@@ -45,7 +45,7 @@ public class Main
     {
         if (n < 0)
         {
-            throw new BlednaWartoscDlaSilniException("Number cannot be negative");
+            throw new BlednaWartoscDlaSilniException("Liczba nie może być ujemna");
         }
 
         long result = 1;
